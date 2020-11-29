@@ -40,6 +40,7 @@ function buildLine(ds) {
     .scale(xScale)
     .orient("bottom")
     .tickFormat(d3.time.format("%b"));
+
   var yAxisGen = d3.svg.axis().scale(yScale).orient("left").ticks(4);
 
   var lineFun = d3.svg
